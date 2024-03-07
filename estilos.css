@@ -1,0 +1,19 @@
+.contenedor {
+    background-color: aqua; 
+    width: 30%; /*ancho muy pequeño*/
+    margin: 0 auto; /*centrar texto o elemento*/
+} 
+
+@media only screen and (max-width: 480px) { /* max-width: ancho max*/
+    .contenedor {
+        background-color: yellow; 
+        width: 100%; /*ancho para celular*/
+    }
+} 
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .contenedor {
+        background-color: red;
+        width: 85%; /*ancho para tableta*/
+    }
+}
